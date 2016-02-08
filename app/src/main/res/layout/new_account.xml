@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tamburrelli.gennaro.rec_fuels_v01.newAccount"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/labelUserName"
+        android:id="@+id/labelUserName"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.02"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/editUserName"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.02"
+        android:layout_marginTop="10dp"
+        android:editable="true"
+        android:background="#ffffff"
+        android:elegantTextHeight="false"
+        android:enabled="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="@string/placeholderUserName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/labelUserCar"
+        android:id="@+id/labelUserCar"
+        android:layout_weight="0.02"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/editUserCar"
+        android:layout_weight="0.02"
+        android:layout_marginTop="10dp"
+        android:editable="true"
+        android:background="#ffffff"
+        android:elegantTextHeight="false"
+        android:enabled="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="@string/placeholderUserCar"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelAddUserButton"
+        android:id="@+id/addUserToDB"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.02"
+        android:clickable="true"
+        android:layout_marginTop="30dp" />
+</LinearLayout>

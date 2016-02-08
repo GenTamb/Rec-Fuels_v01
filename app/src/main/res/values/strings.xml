@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Rec-Fuels_v01</string>
+    <string name="title">Rec Fuels</string>
+    <string name="appTitle">Rec Fuels</string>
+    <string name="createAccount">New Account</string>
+    <string name="labelUserName">User Name</string>
+    <string name="placeholderUserName">Write your name..</string>
+    <string name="labelUserCar">User Car</string>
+    <string name="placeholderUserCar">Write your car..</string>
+    <string name="labelAddUserButton">ADD</string>
+    <string name="title_activity_newAccount">Add new Account</string>
+    <string name="title_activity_accountMenu">Account Menu</string>
+    <string name="title_activity_accountHistory">Account History</string>
+    <string name="labelTitleAccountName">Account:</string>
+    <string name="labelTitleAccountCar">Car:</string>
+    <string name="labelFuelAmount">Amount</string>
+    <string name="labelFuelCost">Cost</string>
+    <string name="labelNote">Note</string>
+    <string name="labelCheckPosition">Save Position</string>
+    <string name="labelKmDone">KM done</string>
+</resources>
